@@ -1,0 +1,52 @@
+# Configuração do Blog Jekyll
+
+title: Meu Blog
+description: Um blog sobre diversos tópicos de interesse
+author: Kleyton Ramos
+email: seu-email@exemplo.com
+url: https://seu-usuario.github.io
+baseurl: "" # deixe vazio se o repositório é seu-usuario.github.io
+
+# Configurações do Jekyll
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Configurações de permalink
+permalink: /:categories/:year/:month/:day/:title/
+
+# Configurações de categorias e tags
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Configurações de data
+timezone: America/Sao_Paulo
+
+# Configurações de build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - .git
+  - .gitignore
+
+# Configurações de categorias (tópicos)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Kleyton Ramos"
+
+# Configurações de social (opcional)
+github_username: seu-usuario
+twitter_username: seu-usuario
+linkedin_username: seu-usuario
+

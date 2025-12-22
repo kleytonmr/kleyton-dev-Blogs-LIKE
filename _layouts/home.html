@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% assign categories = site.posts | map: 'categories' | flatten | uniq | sort %}
+    {% if categories.size > 0 %}
+    <div class="categories-section">
+        <h2>Tópicos</h2>
+        <div class="categories-list">
+            {% for category in categories %}
+            <a href="{{ '/categorias/' | append: category | relative_url }}" class="category-link">
+                {{ category }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list">
+        {% for post in site.posts limit: 10 %}
+        <li>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+            <div class="post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%d/%m/%Y" }}
+                </time>
+                {% if post.categories.size > 0 %}
+                <div class="post-categories">
+                    {% for category in post.categories %}
+                    <a href="{{ '/categorias/' | append: category | relative_url }}" class="category-tag">{{ category }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">Inscreva-se <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+</div>
+
