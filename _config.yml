@@ -5,7 +5,7 @@ description: Um blog sobre diversos tópicos de interesse
 author: Kleyton Ramos
 email: seu-email@exemplo.com
 url: https://kleytonmr.github.io
-baseurl: "/Blogs-like" # nome do repositório (sem .git)
+baseurl: "/Blogs-Like" # nome do repositório (sem .git)
 
 # Configurações do Jekyll
 markdown: kramdown
@@ -52,7 +52,7 @@ linkedin_username: seu-usuario
 
 # Configurações do Giscus (comentários)
 giscus:
-  repo: kleytonmr/Blogs-like
+  repo: kleytonmr/Blogs-Like
   repo_id: "" # será preenchido após ativar o Giscus
   category: "Announcements"
   category_id: "" # será preenchido após ativar o Giscus

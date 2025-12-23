@@ -1,7 +1,7 @@
 # 🔧 Resolver Erro 404 do CSS
 
 ## ❌ Problema
-O CSS retorna 404: `GET https://kleytonmr.github.io/Blogs-like/assets/css/main.css net::ERR_ABORTED 404`
+O CSS retorna 404: `GET https://kleytonmr.github.io/Blogs-Like/assets/css/main.css net::ERR_ABORTED 404`
 
 ## ✅ Solução Passo a Passo
 
@@ -14,7 +14,7 @@ git push origin main
 
 ### 2. Verificar GitHub Actions
 
-1. Acesse: https://github.com/kleytonmr/Blogs-like/actions
+1. Acesse: https://github.com/kleytonmr/Blogs-Like/actions
 2. Verifique se há um workflow rodando ou que completou recentemente
 3. Se houver erro, clique no workflow e veja os logs
 
@@ -22,7 +22,7 @@ git push origin main
 
 Após renomear o repositório, o GitHub Pages precisa ser reconfigurado:
 
-1. Acesse: https://github.com/kleytonmr/Blogs-like/settings/pages
+1. Acesse: https://github.com/kleytonmr/Blogs-Like/settings/pages
 2. Verifique a seção **"Source"**:
    - Se estiver como **"Deploy from a branch"**, mude para **"GitHub Actions"**
    - Se já estiver como **"GitHub Actions"**, clique em **"Save"** mesmo assim para forçar atualização
@@ -56,7 +56,7 @@ git push origin main
 
 Acesse no navegador:
 ```
-https://kleytonmr.github.io/Blogs-like/assets/css/main.css
+https://kleytonmr.github.io/Blogs-Like/assets/css/main.css
 ```
 
 - ✅ Se aparecer o conteúdo do CSS → está funcionando! (limpe o cache)
@@ -76,7 +76,7 @@ Se o arquivo existir localmente mas não no GitHub Pages, o problema é no deplo
 
 ### Verificar logs do GitHub Actions
 
-1. Acesse: https://github.com/kleytonmr/Blogs-like/actions
+1. Acesse: https://github.com/kleytonmr/Blogs-Like/actions
 2. Clique no último workflow
 3. Veja se há erros no step "Build Jekyll site" ou "Upload artifact"
 

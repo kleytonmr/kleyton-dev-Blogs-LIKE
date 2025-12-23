@@ -2,7 +2,7 @@
 
 ## 📋 O que foi atualizado no projeto
 
-Todas as configurações já foram atualizadas para o novo nome `Blogs-like`:
+Todas as configurações já foram atualizadas para o novo nome `Blogs-Like`:
 
 - ✅ `_config.yml` - baseurl e configurações do Giscus
 - ✅ `GISCUS_SETUP.md` - referências atualizadas
@@ -15,7 +15,7 @@ Todas as configurações já foram atualizadas para o novo nome `Blogs-like`:
 1. Acesse seu repositório: https://github.com/kleytonmr/kleyton-dev-Blogs-LIKE
 2. Clique em **Settings** (Configurações)
 3. Role até a seção **Repository name**
-4. Altere o nome de `kleyton-dev-Blogs-LIKE` para `Blogs-like`
+4. Altere o nome de `kleyton-dev-Blogs-LIKE` para `Blogs-Like`
 5. Clique em **Rename** (Renomear)
 
 ### Passo 2: Atualizar o remote local
@@ -23,13 +23,13 @@ Todas as configurações já foram atualizadas para o novo nome `Blogs-like`:
 Após renomear no GitHub, atualize o remote no seu computador:
 
 ```bash
-git remote set-url origin https://github.com/kleytonmr/Blogs-like.git
+git remote set-url origin https://github.com/kleytonmr/Blogs-Like.git
 ```
 
 Ou se você usa SSH:
 
 ```bash
-git remote set-url origin git@github.com:kleytonmr/Blogs-like.git
+git remote set-url origin git@github.com:kleytonmr/Blogs-Like.git
 ```
 
 Verifique se está correto:
@@ -42,7 +42,7 @@ git remote -v
 
 ```bash
 git add .
-git commit -m "Atualizar configurações para novo nome do repositório Blogs-like"
+git commit -m "Atualizar configurações para novo nome do repositório Blogs-Like"
 git push origin main
 ```
 
@@ -50,7 +50,7 @@ git push origin main
 
 Após renomear, seu blog estará disponível em:
 
-**https://kleytonmr.github.io/Blogs-like/**
+**https://kleytonmr.github.io/Blogs-Like/**
 
 ## ⚠️ Importante
 
@@ -74,5 +74,5 @@ Após renomear, verifique:
 
 ---
 
-**Dica**: O trocadilho "Blogs-like" ficou perfeito! 🎉
+**Dica**: O trocadilho "Blogs-Like" ficou perfeito! 🎉
 

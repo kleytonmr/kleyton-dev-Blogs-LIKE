@@ -3,7 +3,7 @@
 ## ✅ Verificações já feitas
 
 - ✅ CSS existe e tem conteúdo (669 linhas)
-- ✅ Caminho gerado corretamente: `/Blogs-like/assets/css/main.css`
+- ✅ Caminho gerado corretamente: `/Blogs-Like/assets/css/main.css`
 - ✅ Configuração do baseurl está correta no `_config.yml`
 
 ## 🚀 Soluções
@@ -19,7 +19,7 @@ git push origin main
 ### 2. Aguardar o deploy
 
 - O GitHub Actions precisa executar (2-5 minutos)
-- Verifique em: https://github.com/kleytonmr/Blogs-like/actions
+- Verifique em: https://github.com/kleytonmr/Blogs-Like/actions
 
 ### 3. Limpar cache do navegador
 
@@ -37,7 +37,7 @@ git push origin main
 
 Acesse diretamente no navegador:
 ```
-https://kleytonmr.github.io/Blogs-like/assets/css/main.css
+https://kleytonmr.github.io/Blogs-Like/assets/css/main.css
 ```
 
 Se aparecer o conteúdo do CSS, o problema é cache do navegador.
@@ -45,7 +45,7 @@ Se aparecer 404, o problema é no deploy.
 
 ### 5. Verificar o GitHub Pages
 
-1. Acesse: https://github.com/kleytonmr/Blogs-like/settings/pages
+1. Acesse: https://github.com/kleytonmr/Blogs-Like/settings/pages
 2. Verifique se está configurado como **"GitHub Actions"**
 3. Verifique se o último deploy foi bem-sucedido
 
