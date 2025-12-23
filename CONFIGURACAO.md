@@ -4,14 +4,14 @@
 
 O arquivo `_config.yml` já está configurado com:
 - **URL base**: `https://kleytonmr.github.io`
-- **Base URL**: `/kleyton-dev-Blogs-LIKE`
+- **Base URL**: `/Blogs-like`
 - **Usuário GitHub**: `kleytonmr`
 
 ## 🌐 URL do seu blog
 
 Após ativar o GitHub Pages, seu blog estará disponível em:
 
-**https://kleytonmr.github.io/kleyton-dev-Blogs-LIKE/**
+**https://kleytonmr.github.io/Blogs-like/**
 
 ## 🚀 Como ativar o GitHub Pages
 
@@ -25,7 +25,7 @@ git push origin main
 
 ### Passo 2: Ativar o GitHub Pages
 
-1. Acesse seu repositório no GitHub: https://github.com/kleytonmr/kleyton-dev-Blogs-LIKE
+1. Acesse seu repositório no GitHub: https://github.com/kleytonmr/Blogs-like
 2. Vá em **Settings** (Configurações)
 3. No menu lateral, clique em **Pages**
 4. Em **Source**, selecione **"GitHub Actions"**
@@ -44,7 +44,7 @@ git push origin main
 
 ## 🔍 Verificar se está funcionando
 
-1. Acesse: https://kleytonmr.github.io/kleyton-dev-Blogs-LIKE/
+1. Acesse: https://kleytonmr.github.io/Blogs-like/
 2. Se aparecer "404 Not Found", aguarde alguns minutos e tente novamente
 3. Se ainda não funcionar, verifique:
    - Se o workflow do GitHub Actions completou com sucesso
@@ -52,7 +52,7 @@ git push origin main
 
 ## 📝 Notas importantes
 
-- **Base URL**: Como seu repositório não se chama `kleytonmr.github.io`, você precisa do baseurl `/kleyton-dev-Blogs-LIKE`
+- **Base URL**: Como seu repositório não se chama `kleytonmr.github.io`, você precisa do baseurl `/Blogs-like`
 - **Links**: Todos os links já estão configurados para funcionar com o baseurl
 - **Domínio customizado**: Se quiser usar um domínio próprio depois, é só adicionar em Settings > Pages > Custom domain
 

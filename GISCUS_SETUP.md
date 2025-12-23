@@ -12,12 +12,12 @@
 
 1. Acesse: https://github.com/apps/giscus
 2. Clique em **"Install"** (Instalar)
-3. Selecione seu repositório: **kleyton-dev-Blogs-LIKE**
+3. Selecione seu repositório: **Blogs-like**
 4. Clique em **"Install"** novamente
 
 ### Passo 2: Ativar GitHub Discussions
 
-1. Acesse seu repositório: https://github.com/kleytonmr/kleyton-dev-Blogs-LIKE
+1. Acesse seu repositório: https://github.com/kleytonmr/Blogs-like
 2. Vá em **Settings** (Configurações)
 3. No menu lateral, clique em **General**
 4. Role até a seção **Features**
@@ -30,7 +30,7 @@
 
 1. Acesse: https://giscus.app
 2. Preencha os campos:
-   - **Repository**: `kleytonmr/kleyton-dev-Blogs-LIKE`
+   - **Repository**: `kleytonmr/Blogs-like`
    - **Discussion Category**: Escolha uma categoria (ex: "Announcements")
    - **Page ↔ Discussions Mapping**: `pathname`
    - **Discussion Term**: Deixe padrão
@@ -48,7 +48,7 @@ Edite o arquivo `_config.yml` e preencha os valores vazios:
 
 ```yaml
 giscus:
-  repo: kleytonmr/kleyton-dev-Blogs-LIKE
+  repo: kleytonmr/Blogs-like
   repo_id: "COLE_AQUI_O_REPO_ID" # Exemplo: "R_kgDOJ..."
   category: "Announcements"
   category_id: "COLE_AQUI_O_CATEGORY_ID" # Exemplo: "DIC_kwDOJ..."
