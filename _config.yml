@@ -50,3 +50,16 @@ github_username: kleytonmr
 twitter_username: seu-usuario
 linkedin_username: seu-usuario
 
+# Configurações do Giscus (comentários)
+giscus:
+  repo: kleytonmr/kleyton-dev-Blogs-LIKE
+  repo_id: "" # será preenchido após ativar o Giscus
+  category: "Announcements"
+  category_id: "" # será preenchido após ativar o Giscus
+  mapping: "pathname"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "light"
+  lang: "pt"
+

@@ -649,3 +649,21 @@ body {
     }
 }
 
+/* Giscus Comments */
+.giscus-comments {
+    margin-top: 80px;
+    padding-top: 48px;
+    border-top: 1px solid var(--border-color);
+}
+
+.giscus-comments::before {
+    content: "Comentários";
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+    color: var(--text-light);
+}
+
