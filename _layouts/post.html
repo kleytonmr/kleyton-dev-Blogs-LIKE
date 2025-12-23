@@ -81,6 +81,11 @@ layout: default
         <p class="comments-subtitle">Não tem GitHub? Comente usando Google, Facebook ou conta Disqus</p>
         <div id="disqus_thread"></div>
         <script>
+            var disqus_config = function () {
+                this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
+                this.page.identifier = '{{ page.url }}';
+                this.page.title = '{{ page.title }}';
+            };
             (function() {
                 var d = document, s = d.createElement('script');
                 s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';

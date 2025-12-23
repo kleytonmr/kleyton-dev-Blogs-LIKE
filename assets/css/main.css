@@ -721,5 +721,30 @@ body {
     margin-top: 32px;
 }
 
+/* Customizar cores do Disqus para combinar com o blog */
+#disqus_thread iframe {
+    border: none !important;
+}
+
+/* Estilizar o container do Disqus */
+#disqus_thread {
+    background-color: var(--bg-primary);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+/* Personalização adicional do Disqus via CSS */
+.comments-alternative .disqus-comment {
+    background-color: var(--bg-primary) !important;
+}
+
+/* Forçar tema claro no Disqus através de variáveis CSS */
+:root {
+    --disqus-bg: #ffffff;
+    --disqus-text: #242424;
+    --disqus-link: #242424;
+    --disqus-border: #e0e0e0;
+}
+
 /* Force rebuild */
 /* Updated Tue Dec 23 15:44:43 -03 2025 */
