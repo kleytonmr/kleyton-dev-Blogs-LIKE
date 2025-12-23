@@ -4,8 +4,8 @@ title: Meu Blog
 description: Um blog sobre diversos tópicos de interesse
 author: Kleyton Ramos
 email: seu-email@exemplo.com
-url: https://seu-usuario.github.io
-baseurl: "" # deixe vazio se o repositório é seu-usuario.github.io
+url: https://kleytonmr.github.io
+baseurl: "/kleyton-dev-Blogs-LIKE" # nome do repositório (sem .git)
 
 # Configurações do Jekyll
 markdown: kramdown
@@ -46,7 +46,7 @@ defaults:
       author: "Kleyton Ramos"
 
 # Configurações de social (opcional)
-github_username: seu-usuario
+github_username: kleytonmr
 twitter_username: seu-usuario
 linkedin_username: seu-usuario
 
