@@ -8,18 +8,3 @@ Gemfile.lock
 *.log
 .DS_Store
 
-# Arquivos sensíveis (proteção preventiva)
-.env
-.env.local
-.env.*.local
-*.key
-*.pem
-*.secret
-config/secrets.yml
-secrets.yml
-
-# Arquivos de backup
-*.bak
-*.swp
-*~
-

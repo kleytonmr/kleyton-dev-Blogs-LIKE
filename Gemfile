@@ -7,3 +7,6 @@ gem "jekyll-sitemap", "~> 1.4"
 # Para preview local
 gem "webrick", "~> 1.7"
 
+# Para debug
+gem "pry", "~> 0.14"
+

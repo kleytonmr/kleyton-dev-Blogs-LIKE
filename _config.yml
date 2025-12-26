@@ -3,9 +3,9 @@
 title: Pensamentos & Código
 description: Pensamentos & Código sobre diversos tópicos de interesse
 author: Kleyton Ramos
-email: seu-email@exemplo.com
+email: kleytonmatosramos@gmail.com
 url: https://kleytonmr.github.io
-baseurl: "/Blogs-Like" # nome do repositório (sem .git)
+baseurl: "/Blogs-Like"
 
 # Configurações do Jekyll
 markdown: kramdown
