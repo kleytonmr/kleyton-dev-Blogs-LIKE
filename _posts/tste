@@ -1,0 +1,109 @@
+---
+layout: post
+title: "Testeeeeee"
+date: 2024-01-20 14:30:00 -0300
+categories: [tecnologia, programacao]
+tags: [tag1, tag2, tag3]
+excerpt: "Breve descrição do post que aparece na listagem. Seja objetivo e capture a essência do conteúdo."
+---
+
+Escreva aqui a introdução do seu post. Esta é a primeira coisa que o leitor verá, então seja claro e objetivo.
+
+## Primeira Seção
+
+Desenvolva suas ideias aqui. Use parágrafos para organizar o pensamento e tornar a leitura mais fluida.
+
+### Subtítulo
+
+Você pode usar diferentes níveis de títulos para organizar o conteúdo:
+
+- **H2** (`##`) para seções principais
+- **H3** (`###`) para subseções
+- **H4** (`####`) para sub-subseções
+
+## Formatação de Texto
+
+Você pode usar:
+
+- **Negrito** com `**texto**`
+- *Itálico* com `*texto*`
+- `Código inline` com backticks
+- ~~Riscado~~ com `~~texto~~` (se suportado)
+
+## Listas
+
+### Lista não ordenada
+
+- Item 1
+- Item 2
+- Item 3
+
+### Lista ordenada
+
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
+
+## Código
+
+### Código inline
+
+Use `código inline` para referências curtas a variáveis, funções ou comandos.
+
+### Blocos de código
+
+```ruby
+def exemplo
+  puts "Este é um exemplo de código"
+  return true
+end
+```
+
+Você pode especificar a linguagem para syntax highlighting:
+- `ruby`, `python`, `javascript`, `bash`, `sql`, etc.
+
+## Links e Imagens
+
+### Links
+
+- [Texto do link](https://exemplo.com)
+- [Link com título](https://exemplo.com "Título do link")
+
+### Imagens
+
+![Texto alternativo](caminho/para/imagem.jpg)
+
+Ou com link:
+
+[![Texto alternativo](caminho/para/imagem.jpg)](https://exemplo.com)
+
+## Citações
+
+> Esta é uma citação de exemplo.
+> Você pode usar citações para destacar informações importantes,
+> referências ou pensamentos de outras pessoas.
+
+## Tabelas
+
+| Coluna 1 | Coluna 2 | Coluna 3 |
+|----------|----------|----------|
+| Dado 1   | Dado 2   | Dado 3   |
+| Dado 4   | Dado 5   | Dado 6   |
+
+## Separadores
+
+Use `---` para criar uma linha separadora entre seções:
+
+---
+
+## Conclusão
+
+Finalize seu post com uma conclusão que:
+- Resuma os pontos principais
+- Deixe uma reflexão ou pergunta
+- Convide para discussão ou ação
+
+---
+
+**Nota**: Este é um template. Após criar seu post, copie este arquivo para `_posts/` com o formato `YYYY-MM-DD-titulo-do-post.md` e substitua o conteúdo pelo seu texto.
+
